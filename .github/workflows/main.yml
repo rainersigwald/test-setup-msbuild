@@ -26,7 +26,7 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: setup-msbuild
-        uses: raines/setup-msbuild@88ed23ebf4e2efd24b23bc47ccc72dada8bdfcec
+        uses: rainersigwald/setup-msbuild@88ed23ebf4e2efd24b23bc47ccc72dada8bdfcec
         # with:
           # The preferred processor architecture of MSBuild. Can be either "x86" or "x64". "x64" is only available from Visual Studio version 17.0 and later.
           #msbuild-architecture: 'x64'
