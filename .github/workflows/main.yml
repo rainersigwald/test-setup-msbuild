@@ -26,7 +26,7 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: setup-msbuild
-        uses: rainersigwald/setup-msbuild@90c3b53c5dcf29b3264c5a705699269b38e842f9
+        uses: rainersigwald/setup-msbuild@9505684353ce23f18fc91d0935a7539a046a6d13
         # uses: microsoft/setup-msbuild@v1.1
         with:
           vs-prerelease: 'true'
