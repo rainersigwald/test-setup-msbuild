@@ -28,5 +28,6 @@ jobs:
       - name: setup-msbuild
         uses: rainersigwald/setup-msbuild@more-msbuild64
         with:
+          vs-prerelease: 'true'
           # The preferred processor architecture of MSBuild. Can be either "x86" or "x64". "x64" is only available from Visual Studio version 17.0 and later.
           msbuild-architecture: 'x64'
